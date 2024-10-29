@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Sen:wght@400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Serif", serif;
+}
+
+/* Custom Css */
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+p {
+    color: #6c6c6c;
+}
+
+a {
+    text-decoration: none;
+    color: #a82c48;
+}
+
+ul li {
+    list-style: none;
+}
+
+section {
+    background-color: whitesmoke;
+}
+
+/* Custom Css Close */
+
+/* ------------------------ Header Open ------------------------ */
+/* Nav-Bar */
+
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index:9999999999;
+    background-color: white;
+}
+
+.navbar ul.navbar-nav li {
+    margin-left: 15px;
+}
+
+.navbar a.nav-link {
+    color: #a82c48 !important;
+
+}
+
+.navbar .nav-btn button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #a82c48;
+    box-shadow: 0px 0px 4px 0px;
+    color: white    ;
+}
+
+.navbar .nav-btn button:hover {
+    background-color: white;
+    border: white;
+    transition: .5s ease all;
+    color: #a82c48;
+} 
+
+.navbar-brand img {
+    width: 150px;
+}
+
+/* Nav-bar Close */
+
+/*---------------------- Header Close ------------------ */
+
+/* Ban-Sec Open */
+
+.top-ban {
+    background: url("..//images/bg/bg-1.jpg") no-repeat center;
+    width: 100%;
+    background-size: cover;
+    padding: 250px 0px;
+}
+
+
+.btn-button button:first-child{
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #a82c48;
+    box-shadow: 0px 0px 4px 0px;
+    color: white    ;
+}
+
+.btn-button button button:hover:first-child , .btn-card button:hover:first-child {
+    background-color: white;
+    border: white;
+    transition: .5s ease all;
+    color: #a82c48;
+    border: none;
+} 
+
+.btn-button button:last-child{
+    width: 130px;
+    height: 40px;
+    border: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0px;
+    color: black;
+}
+
+.btn-button button:hover:last-child {
+    background-color: white;
+    border: white;
+    transition: .5s ease all;
+    color: #a82c48;
+} 
+
+/* Ban - Sec Close */
+
+/* Ban Last Part */
+
+.ban-part {
+    background-color: #a82c48;
+    padding: 40px 0px;
+}
+
+.ban-txt-lst {
+    text-align: center;
+}
+
+.ban-txt-lst p:first-child {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.ban-txt-lst p:last-child {
+    color: white;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+ /*------------------------- About 2nd Open -----------------  */
+
+.abt-sec {
+    padding: 120px 0px;
+}
+
+.abt-img img {
+    width: 100%;
+    border-radius: 8px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.abt-sec-part {
+    padding-top: 100px;
+}
+
+.abt-sec-txt ul li {
+    font-weight:bold ;
+    margin-bottom: 10px;
+}
+
+.abt-sec-txt ul {
+    padding-left: 0px;
+}
+
+.abt-sec-txt ul li i {
+    margin-right: 15px;
+    color: #a82c48;
+}
+
+ /*------------------------- About 2nd Close -----------------  */
+
+/* ---------------------- Theme-Sec Open ------------------- */
+
+.theme-sec {
+    background: url("..//images/bg/bg-2.jpg") no-repeat center;
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    /* padding-top: 100px; */
+}
+
+.theme-hed {
+    padding: 120px 0px;
+    margin: auto 150px;
+}
+
+/* ---------------------- Theme-Sec Open ------------------- */
+
+.explore-sec {
+    padding: 120px 0px;
+}
+
+.explore-hed {
+    margin: auto 150px;
+}
+
+/* Cards-sec */
+
+.cards-sec {
+    padding-top: 40px;
+}
+
+.card img {
+    border-radius: 5px;
+}
+
+.card-txt {
+    padding: 20px;
+}
+
+.card-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-txt .btn-card button {
+    width: 125px;
+    height: 40px;
+    border: none;
+    color: black;
+    background-color: #a82c48;
+    border-radius:5px ;
+    box-shadow: 0px 0px 4px 0px;
+}
+
+.card-txt span {
+    font-size: 28px;
+    color: #a82c48;
+}
+
+.card-txt span del {
+    color: #6c6c6c;
+    font-size: 20px;
+}
+
+/* Cards Close */
+
+/* ---------------------- Theme-Sec Close ------------------- */
+
+/*---------------------- Testimnial Sec --------------------------- */
+
+.clients-sec {
+    background-color: #a82c48;
+    /* height: 600px; */
+    padding: 80px 0px;
+}
+
+.testi-hed {
+    padding-bottom: 40px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.box-testi {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.testi-carts img {
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+    /* padding-bottom: 10px; */
+}
+
+.box-testi .testi-txt p {
+    margin: auto 200px;
+ padding: 20px 0px;
+}
+
+.testi-txt p:last-child {
+    color: #a82c48;
+    font-weight: bold;
+    padding: 0px;
+}
+
+/*---------------------- Testimnial Sec Close--------------------------- */
+
+/*------------------- FAQ SEC OPEN -------------------------- */
+
+.faq-sec {
+    padding: 120px 0px;
+}
+
+.pad-top {
+    padding: 40px 0px;
+}
+
+.feq-txt p:first-child {
+    color: #a82c48;
+    font-size: 22px;
+}
+
+/* ---------- FAQ Sec Closee ----------------- */
+
+/* ----------- Paralel Sec Open--------------------- */
+
+.paralel-img {
+    background: url("..//images/bg/bg-3.jpg")no-repeat center;
+    width: 100%;
+    background-size:cover ;
+    background-attachment: fixed;
+} 
+
+.paralel-txt {
+    padding: 100px 0px;
+}
+
+.paralel-hed h2 {
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+/* ----------- Paralel Sec Close--------------------- */
+
+/* ------------  Form Sec Open ------------------- */
+
+.form-sec {
+    padding: 100px 0px;
+}
+
+.form input {
+    width: 50%;
+    height: 50px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px;
+    padding-left: 20px;
+}
+
+.form-btn button {
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: #a82c48;
+    box-shadow: 0px 0px 4px 0px;
+    color: white    ;
+
+}
+
+.form-btn button:hover {
+    background-color: white;
+    border: white;
+    transition: .5s ease all;
+    color: #a82c48;
+    border: none;
+}
+
+.form-btn{
+    display: inline;
+}
+
+/*-------------------- Footer-Sec ------------------------ */
+
+.footer-sec {
+    padding: 60px 0px;
+    background-color: #a82c48;
+
+}
+
+.ft-txt a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.foot-social i {
+    color: white;
+    margin-right: 35px;
+    font-size: 20px;
+}
+
+.foot-copy p {
+    background-color: #a82c48;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.foot-rights {
+    box-shadow: 0px 0px 5px 0px;
+    width: 100%;
+    /* height: 80px; */
+    padding: 20px 0px;
+    margin-top: 35px;
+    border-radius: 10px;
+}
+
+/*----------- Media Query--------- */
+
+
+
+@media only screen and (min-width:300px) and (max-width:519px) {
+    header {
+        overflow: hidden;
+    }
+    section {
+        overflow: hidden;
+    }
+
+    .nav-bar .navbar-brand img {
+        width: 110px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 14px;
+    }
+
+    .btn-button button:first-child {
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .btn-button button:last-child {
+        width: 100px;
+        height: 40px;
+        font-size: 13px;
+    }
+    .ban-txt-lst {
+        margin-bottom: 10px;
+    }
+    .ban-txt-lst p:first-child {
+        font-size: 22px;
+    }
+    .ban-txt-lst p:last-child {
+        font-size: 12px;
+    }
+    .abt-sec-txt ul li {
+        font-size: 14px;
+    }
+    .abt-sec-txt ul li i {
+margin-right:10px ;
+    }
+    .theme-hed {
+        margin: auto;
+        padding: 72px 0px;
+    }
+    .explore-hed {
+        margin: auto;
+    }
+    .btn-card {
+        font-size: 13px;
+    }
+    .box-testi .testi-txt p {
+        margin: auto;
+    }
+    .feq-txt p:first-child {
+        font-size: 18px;
+    }
+    .feq-txt {
+        padding: 10px 0px;
+    }
+    .btn-button {
+        padding-top: 30px;
+    }
+    .paralel {
+        text-align: center;
+    }
+    .form input {
+        width: 100%;
+        font-size: 14px;
+    }
+    .form-btn button {
+        margin-top: 25px;
+        width: 100%;
+    }
+    .foot-social i {
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    .foot-copy {
+        font-size: 13px;
+    }
+    .card-txt .btn-card button {
+        width: 100px;
+        height: 40px;
+        font-size: 13px;   
+    }
+}
+
+@media only screen and (min-width:519px) and (max-width:768px) {
+    header {
+        overflow: hidden;
+    }
+    section {
+        overflow: hidden;
+    }
+    .nav-bar .navbar-brand img {
+        width: 150px;
+    }
+      
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .btn-button button:first-child {
+        width: 120px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .btn-button button:last-child {
+        width: 120px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .ban-txt-lst p:first-child {
+        font-size: 30px
+    }
+    .ban-txt-lst p:last-child {
+        font-size: 16px
+    } 
+
+    .abt-sec-txt ul li {
+        font-size: 16px;
+    }
+    
+.theme-hed , .explore-hed ,.testi-txt {
+  margin: auto;
+}
+.box-testi .testi-txt p {
+    margin: auto 30px;
+  }
+  .card-txt .btn-card button {
+    width: 120px;
+    height: 50px;
+    font-size: 16px;
+}
+
+    }
+
+@media only screen and (min-width:769px) and (max-width:991px) {
+    section {
+        overflow: hidden;
+    }
+    header {
+        overflow: hidden;
+    }
+    footer {
+        overflow: hidden;
+    }
+  p {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .btn-button button:first-child {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+  }
+  .btn-button button:last-child {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+  }
+  .abt-sec-txt ul li {
+    font-size: 20px;
+  }
+  .theme-hed , .explore-hed{
+    margin: auto;
+  }
+  .box-testi .testi-txt p {
+    margin: auto 100px;
+  }
+  .paralel {
+    padding-top: 40px;
+    text-align: center;
+  }
+  .ft-txt a {
+    font-size: 24px;
+  }
+  .foot-social i {
+    font-size: 26px;
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    section {
+        overflow: hidden;
+    }
+    header {
+        overflow: hidden;
+    }
+    footer {
+        overflow: hidden;
+    }
+}
+
+
